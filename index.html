@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Practica Integral</h1>
+        <nav>
+            <ul>
+                <li><a href="#form">Formulario</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="form">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="POST">
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="" name="apellido" required>
+
+                <label for="consulta">Su consulta:</label>
+                <textarea name="consulta" id="consulta"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+        <section id="tabla">
+            <h2>Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Celular LG</td>
+                        <td>$500.000</td>
+                        <td><button>Agregar</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Celular Samnsung</td>
+                        <td>$750.000</td>
+                        <td><button>Agregar</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Celular Motorola</td>
+                        <td>$600.000</td>
+                        <td><button>Agregar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <br>
+    </br>
+    <footer id="contacto">   
+        <p>Proyecto nP Dev - (C) 2026</p>
+    </footer>
+</body>
+</html>
